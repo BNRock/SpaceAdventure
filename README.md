@@ -8,7 +8,6 @@
 All of the following commands have to be typed while in the /SpaceAdventure directory.
 * Clean:  mvn clean
 * Compile : mvn compile
-* Junit: mvn test
 * Jar: mvn assembly:assembly (this will make two jar files.  Use the one with dependencies)
 * Run the GUI: java -cp target/2430_A2-1.0-jar-with-dependencies.jar adventure.AdventureView
 * Run the game without GUI: java -cp target/2430_A2-1.0-jar-with-dependencies.jar adventure.Game 'flags'
