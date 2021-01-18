@@ -1,0 +1,225 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "start": "true",
+        "name": "THE LIVING QUARTERS",
+        "short_description": "THESE ARE THE LIVING QUARTERS ON THE SPACE STATION.",
+        "long_description": "THE LIVING QUARTERS ARE A LARGE SPACE, ROOMY ENOUGH TO FIT SLEEPING PODS FOR 6 ASTRONAUTS. ALL THE SLEEPING PODS ARE EMPTY, AND UNUSUALLY MESSY, AS IF THEY WERE HASTILITY EVACUATED. ABOVE YOU IS THE BATHROOM MODULE. THERE IS A FAMILY PHOTO PINNED TO THE WALL OF YOUR SLEEPING POD.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "N"
+          },
+          {
+            "id": 106,
+            "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "THE TRANQUILITY MODULE",
+        "short_description": "THIS IS THE TRANQUILITY MODULE OF THE SPACE STATION. IT'S THE LARGEST MODULE ON THE STATION, AND PROVIDES ACCESS TO MANY DIFFERENT STATION ROOMS.",
+        "long_description": "THE TRANQUILITY MODULE WAS THE FIRST MODULE BROUGHT UP INTO SPACE WHEN THE STATION WAS BEING BUILT. THERE ARE WRITING UTENSILS FLOATING THROUGHOUT THE MODULE. A RED EMERGENCY LIGHT IS FLASHING IN THE CORNER OF THE ROOM AND PRODUCING AN ANNOYING BLARING SOUND. BELOW YOU IS THE DOCKING MODULE",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "S"
+          },
+          {
+            "id": 102,
+            "dir": "W"
+          },
+          {
+            "id": 104,
+            "dir": "N"
+          },
+          {
+            "id": 105,
+            "dir": "E"
+          },
+          {
+            "id": 107,
+            "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 6
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "THE CONTROL ROOM",
+        "short_description": "THIS IS THE ROOM THAT CONTAINS ALL THE CONTROLS FOR THE STATION'S ENGINES AND LIFE SUPPORT.",
+        "long_description": "THE CONTROL ROOM IS SURPRISINGLY HOT. HUNDREDS OF BUTTONS LABELED IN RUSSIAN FLASH RED AND BEEP. THE FUEL METERS ARE DANGEROUSLY LOW, AND ONE OF THE SCREENS SHOWS THAT THE LIFE SUPPORT SYSTEMS CAN'T FUNCTION FOR MUCH LONGER. A PLUSH EARTH FIGURE FLOATS BY, REMINDING YOU OF HOME.",
+        "entrance": [
+          {
+            "id": 101,
+			      "dir": "E"
+          },
+          {
+            "id": 103,
+            "dir": "N"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "THE EXPERIMENTS MODULE",
+        "short_description": "THIS IS THE MODULE OF THE SPACE STATION DESIGNATED FOR PERFORMING SCIENTIFIC EXPERIMENTS.",
+        "long_description": "THE USUALLY VERY TIDY MODULE IS IN DISARRAY. INSTRUMENTS ARE EVERYWHERE, AND LAPTOPS AND MICROSCOPES ARE FLOATING AROUND WITH BROKEN INTERFACES. THE GLOVEBOX, USED TO HANDLE BIOLOGICAL EXPERIMENTS THAT ARE POTENTIALLY HARMFUL TO THE ASTRONAUTS PERFORMING THEM, HAS A MASSIVE HOLE IN IT. WHAT HAPPENED HERE?",
+        "entrance": [
+          {
+            "id": 102,
+            "dir": "S"
+          },
+          {
+            "id": 104,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "THE FOOD STORAGE MODULE",
+        "short_description": "THIS MODULE HOLDS ALL THE FOOD FOR THOSE LIVING ABOARD THE STATION.",
+        "long_description": "THE FOOD STORAGE MODULE IS A PRETTY LARGE SPACE, WITH COMPARTMENTS ON ALL SURFACES, LABELED WITH DIFFERENT FOOD AND BEVERAGE CATEGORIES. THERE IS A PACKET OF FOOD FLOATING AROUND, HALF OF THE CONTENTS SPREAD AROUND THE ROOM, AS IF IT WAS LEFT IN A HURRY.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "S"
+          },
+          {
+            "id": 103,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 4
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "THE ESCAPE MODULE",
+        "short_description": "THIS MODULE OF THE SPACE STATION HOLDS 6 ESCAPE PODS IN CASE OF EMERGENCY.",
+        "long_description": "THE ESCAPE MODULE IS UNUSUALLY EMPTY. THE NORMALLY CLEAN WHITE WALLS ARE DIRTIED WITH BLOODY HANDPRINTS. A SPACESUIT IS PINNED TO THE WALL. ALL 6 OF THE ESCAPE PODS HAVE BEEN UNDOCKED FROM THEIR STATION, AND WITH THEIR ABSENCE YOUR HOPE OF SURVIVAL FADES TOO.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "name": "THE BATHROOM MODULE",
+        "short_description": "THIS MODULE OF THE SPACE STATION HOLD THE TOILET AND HYGEINE KITS.",
+        "long_description": "THE BATHROOM MODULE IS ARGUABLY ONE OF THE MOST IMPORTANT MODULES ON THE STATION. THE TOILET HAS AN UNBUCKLED SEATBELT FLOATING AROUND IT, A VACUUM TUBE COMING OUT FROM INSIDE IT, AND A HEAVY DUTY LOCKABLE LID. ON THE SIDE OF THE MODULE THERE IS A BAG HOLDING A TOOTHBRUSH. UNDERNEATH YOU ARE THE LIVING QUARTERS.",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 8
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "name": "THE DOCKING MODULE",
+        "short_description": "THIS MODULE IS A WIDE SPACE WITH A HATCH TO OPEN ONCE A CAPSULE IS DOCKED.",
+        "long_description": "THE DOCKING MODULE IS THE MOST DECORATIVE ROOM ON THE STATION, WITH FLAGS FROM MULTIPLE COUNTRIES SPREAD ACROSS THE WALLS. THERE IS A BELL ON THE WALL. THE HATCH IS OPEN, SHOWING THE INSIDE OF A RECENTLY DOCKED SPACEX DRAGON CAPSULE. MAYBE THERE IS HOPE AFTER ALL.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "EARTH TOY",
+        "desc": "A PLUSH FIGURE OF THE PLANET EARTH. THE BACK HALF OF IT IS SPLATTERED WITH BLOOD.",
+        "tossable": true
+      },
+      {
+        "id": 2,
+        "name": "PHOTO",
+        "desc": "AN OLD PHOTO OF YOUR FAMILY. IT WAS TAKEN IN YOUR NEIGHBOURHOOD PARK."
+      },
+      {
+        "id": 3,
+        "name": "MANUAL",
+        "desc": "A LAB MANUAL DETAILING THE BIOLOGICAL EXPERIMENT YOU WERE SENT UP HERE TO PERFORM. SEVERAL PAGES HAVE BEEN RIPPED OUT.",
+        "readable": true
+      },
+      {
+        "id": 4,
+        "name": "FOOD",
+        "desc": "AN OPEN PACKET OF FREEZE-DRIED BBQ SPICE CHICKEN.",
+        "edible": true,
+        "tossable": true
+      },
+      {
+        "id": 5,
+        "name": "SPACESUIT",
+        "desc": "A SPACEX BRANDED LAUNCH SUIT. THERE IS A LARGE CRACK IN THE VISOR.",
+        "wearable": true,
+        "readable": true
+      },
+      {
+        "id": 6,
+        "name": "PEN",
+        "desc": "IT'S JUST A NORMAL PEN. WHAT WERE YOU EXPECTING?",
+        "tossable": true
+      },
+      {
+        "id": 7,
+        "name": "BELL",
+        "desc": "A GOLD PAINTED CEREMONIAL BELL THAT IS RUNG EVERYTIME NEW ASTRONAUTS COME OR LEAVING THROUGH THE DOCKING STATION. IT IS LOUD WHEN RUNG, AND YOU CAN REMEMBER IT LAST BEING USED WHEN YOU FLOATED THROUGH THE HATCH INTO THE STATION."
+      },
+      {
+        "id": 8,
+        "name": "TOOTHBRUSH",
+        "desc": "YOUR NASA-ISSUED TOOTHBRUSH. IT IS GREEN AND BLAND. IT'S DRY AS A BONE AND THE END OF IT SEEMS TO BE SHARPENED INTO SOME SORT OF SHIV.",
+        "tossable": true
+      }
+    ]
+  }
+}
